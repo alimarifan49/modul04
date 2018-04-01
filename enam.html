@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascripts</title>
+    
+</head>
+
+<body>
+<h1>Looping pada javascripts</h1>
+     <script >
+    //alim koding
+var year = [1997,2000,2002,1995];
+var hasil = [];
+         var z=1;
+for (var i = 0; i < year.length; i++) {
+    console.log('tahun lahir '+(z+i)+'='+year[i]); }
+  console.log('     ');
+
+  console.log(year);
+console.log('<18 hasil false && >= 18 hasil true');
+
+         
+
+for (var i = 0; i < year.length; i++) {
+     var yearA=year[i];
+    var umur=2018-yearA;
+  
+      if(umur<18){hasil.push(false);}
+    else if(umur>=18){hasil.push(true);}
+      console.log(year[i]+'='+hasil[i]);
+}
+
+ ///test fungsi        
+ function printFullage(name) {
+var full_1=year;
+var full_2=hasil;
+     return name
+}    ;   
+
+      
+    console.log(printFullAge());   
+
+    </script>
+   </body>
+</html>
